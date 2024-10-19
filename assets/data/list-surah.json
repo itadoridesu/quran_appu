@@ -1,0 +1,1147 @@
+[
+    {
+        "nomor": 1,
+        "nama": "الفاتحة",
+        "nama_latin": "Al-Fatihah",
+        "jumlah_ayat": 7,
+        "tempat_turun": "Meccan",
+        "arti": "The Opening",
+        "deskripsi": "A prayer for guidance, lordship, and mercy.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/001.mp3"
+    },
+    {
+        "nomor": 2,
+        "nama": "البقرة",
+        "nama_latin": "Al-Baqarah",
+        "jumlah_ayat": 286,
+        "tempat_turun": "Medinian",
+        "arti": "The Cow",
+        "deskripsi": "Discusses guidance, faith, laws, and stories of prophets.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/002.mp3"
+    },
+    {
+        "nomor": 3,
+        "nama": "آل عمران",
+        "nama_latin": "Al-Imran",
+        "jumlah_ayat": 200,
+        "tempat_turun": "Medinian",
+        "arti": "The Family of Imran",
+        "deskripsi": "Focuses on the unity of faith and the importance of trust in God.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/003.mp3"
+    },
+    {
+        "nomor": 4,
+        "nama": "النساء",
+        "nama_latin": "An-Nisa",
+        "jumlah_ayat": 176,
+        "tempat_turun": "Medinian",
+        "arti": "The Women",
+        "deskripsi": "Addresses issues of women, family, and justice.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/004.mp3"
+    },
+    {
+        "nomor": 5,
+        "nama": "المائدة",
+        "nama_latin": "Al-Ma'idah",
+        "jumlah_ayat": 120,
+        "tempat_turun": "Medinian",
+        "arti": "The Table Spread",
+        "deskripsi": "Covers dietary laws and emphasizes community ethics.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/005.mp3"
+    },
+    {
+        "nomor": 6,
+        "nama": "الأنعام",
+        "nama_latin": "Al-An'am",
+        "jumlah_ayat": 165,
+        "tempat_turun": "Medinian",
+        "arti": "The Cattle",
+        "deskripsi": "Explores monotheism and the rejection of idolatry.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/006.mp3"
+    },
+    {
+        "nomor": 7,
+        "nama": "الأعراف",
+        "nama_latin": "Al-A'raf",
+        "jumlah_ayat": 206,
+        "tempat_turun": "Meccan",
+        "arti": "The Heights",
+        "deskripsi": "Discusses the consequences of disbelief and the stories of prophets.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/007.mp3"
+    },
+    {
+        "nomor": 8,
+        "nama": "الأنفال",
+        "nama_latin": "Al-Anfal",
+        "jumlah_ayat": 75,
+        "tempat_turun": "Medinian",
+        "arti": "The Spoils of War",
+        "deskripsi": "Deals with the rules of warfare and the distribution of spoils.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/008.mp3"
+    },
+    {
+        "nomor": 9,
+        "nama": "التوبة",
+        "nama_latin": "At-Tawbah",
+        "jumlah_ayat": 129,
+        "tempat_turun": "Medinian",
+        "arti": "The Repentance",
+        "deskripsi": "Calls for repentance and outlines the obligations of Muslims.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/009.mp3"
+    },
+    {
+        "nomor": 10,
+        "nama": "يونس",
+        "nama_latin": "Yunus",
+        "jumlah_ayat": 109,
+        "tempat_turun": "Meccan",
+        "arti": "Jonah",
+        "deskripsi": "Highlights the importance of faith and the stories of various prophets.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/010.mp3"
+    },
+    {
+        "nomor": 11,
+        "nama": "هود",
+        "nama_latin": "Hud",
+        "jumlah_ayat": 123,
+        "tempat_turun": "Meccan",
+        "arti": "Hud",
+        "deskripsi": "Stresses the consequences of disbelief and the importance of divine mercy.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/011.mp3"
+    },
+    {
+        "nomor": 12,
+        "nama": "يوسف",
+        "nama_latin": "Yusuf",
+        "jumlah_ayat": 111,
+        "tempat_turun": "Meccan",
+        "arti": "Joseph",
+        "deskripsi": "A narrative about the trials and triumphs of Prophet Joseph.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/012.mp3"
+    },
+    {
+        "nomor": 13,
+        "nama": "الرعد",
+        "nama_latin": "Ar-Ra'd",
+        "jumlah_ayat": 43,
+        "tempat_turun": "Medinian",
+        "arti": "The Thunder",
+        "deskripsi": "Emphasizes God's power and the inevitability of resurrection.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/013.mp3"
+    },
+    {
+        "nomor": 14,
+        "nama": "إبراهيم",
+        "nama_latin": "Ibrahim",
+        "jumlah_ayat": 52,
+        "tempat_turun": "Meccan",
+        "arti": "Abraham",
+        "deskripsi": "Focuses on the call to monotheism and the importance of gratitude.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/014.mp3"
+    },
+    {
+        "nomor": 15,
+        "nama": "الحجر",
+        "nama_latin": "Al-Hijr",
+        "jumlah_ayat": 99,
+        "tempat_turun": "Meccan",
+        "arti": "The Rocky Tract",
+        "deskripsi": "Discusses the fate of past nations and the importance of faith.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/015.mp3"
+    },
+    {
+        "nomor": 16,
+        "nama": "النحل",
+        "nama_latin": "An-Nahl",
+        "jumlah_ayat": 128,
+        "tempat_turun": "Meccan",
+        "arti": "The Bee",
+        "deskripsi": "Highlights the signs of God in nature and the blessings of creation.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/016.mp3"
+    },
+    {
+        "nomor": 17,
+        "nama": "الإسراء",
+        "nama_latin": "Al-Isra",
+        "jumlah_ayat": 111,
+        "tempat_turun": "Meccan",
+        "arti": "The Night Journey",
+        "deskripsi": "Describes the night journey of Prophet Muhammad and the importance of worship.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/017.mp3"
+    },
+    {
+        "nomor": 18,
+        "nama": "الكهف",
+        "nama_latin": "Al-Kahf",
+        "jumlah_ayat": 110,
+        "tempat_turun": "Meccan",
+        "arti": "The Cave",
+        "deskripsi": "Tells stories of faith, including the people of the cave and the trials of life.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/018.mp3"
+    },
+    {
+        "nomor": 19,
+        "nama": "مريم",
+        "nama_latin": "Maryam",
+        "jumlah_ayat": 98,
+        "tempat_turun": "Meccan",
+        "arti": "Mary",
+        "deskripsi": "A narrative about the Virgin Mary and the miraculous birth of Jesus.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/019.mp3"
+    },
+    {
+        "nomor": 20,
+        "nama": "طه",
+        "nama_latin": "Ta-Ha",
+        "jumlah_ayat": 135,
+        "tempat_turun": "Meccan",
+        "arti": "Ta-Ha",
+        "deskripsi": "Focuses on the story of Moses and the call to monotheism.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/020.mp3"
+    },
+    {
+        "nomor": 21,
+        "nama": "الأنبياء",
+        "nama_latin": "Al-Anbiya",
+        "jumlah_ayat": 112,
+        "tempat_turun": "Meccan",
+        "arti": "The Prophets",
+        "deskripsi": "Discusses the lives of various prophets and the importance of their messages.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/021.mp3"
+    },
+    {
+        "nomor": 22,
+        "nama": "الحج",
+        "nama_latin": "Al-Hajj",
+        "jumlah_ayat": 78,
+        "tempat_turun": "Medinian",
+        "arti": "The Pilgrimage",
+        "deskripsi": "Covers the significance of Hajj and the unity of believers.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/022.mp3"
+    },
+    {
+        "nomor": 23,
+        "nama": "المؤمنون",
+        "nama_latin": "Al-Mu'minun",
+        "jumlah_ayat": 118,
+        "tempat_turun": "Medinian",
+        "arti": "The Believers",
+        "deskripsi": "Describes the qualities of true believers and their ultimate success.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/023.mp3"
+    },
+    {
+        "nomor": 24,
+        "nama": "النور",
+        "nama_latin": "An-Nur",
+        "jumlah_ayat": 64,
+        "tempat_turun": "Medinian",
+        "arti": "The Light",
+        "deskripsi": "Addresses social issues, modesty, and the importance of family values.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/024.mp3"
+    },
+    {
+        "nomor": 25,
+        "nama": "الفرقان",
+        "nama_latin": "Al-Furqan",
+        "jumlah_ayat": 77,
+        "tempat_turun": "Meccan",
+        "arti": "The Criterion",
+        "deskripsi": "Emphasizes the distinction between truth and falsehood.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/025.mp3"
+    },
+    {
+        "nomor": 26,
+        "nama": "الشعراء",
+        "nama_latin": "Ash-Shu'ara",
+        "jumlah_ayat": 227,
+        "tempat_turun": "Meccan",
+        "arti": "The Poets",
+        "deskripsi": "Discusses the role of poetry and the messages of various prophets.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/026.mp3"
+    },
+    {
+        "nomor": 27,
+        "nama": "النمل",
+        "nama_latin": "An-Naml",
+        "jumlah_ayat": 93,
+        "tempat_turun": "Meccan",
+        "arti": "The Ant",
+        "deskripsi": "Highlights the signs of God in creation and the stories of prophets.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/027.mp3"
+    },
+    {
+        "nomor": 28,
+        "nama": "القصص",
+        "nama_latin": "Al-Qasas",
+        "jumlah_ayat": 88,
+        "tempat_turun": "Meccan",
+        "arti": "The Stories",
+        "deskripsi": "Focuses on the story of Moses and the importance of faith.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/028.mp3"
+    },
+    {
+        "nomor": 29,
+        "nama": "العنكبوت",
+        "nama_latin": "Al-Ankabut",
+        "jumlah_ayat": 69,
+        "tempat_turun": "Meccan",
+        "arti": "The Spider",
+        "deskripsi": "Emphasizes faith in God amidst trials and tribulations.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/029.mp3"
+    },
+    {
+        "nomor": 30,
+        "nama": "الروم",
+        "nama_latin": "Ar-Rum",
+        "jumlah_ayat": 60,
+        "tempat_turun": "Meccan",
+        "arti": "The Romans",
+        "deskripsi": "Discusses the defeat of the Romans and the signs of God's power.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/030.mp3"
+    },
+    {
+        "nomor": 31,
+        "nama": "لقمان",
+        "nama_latin": "Luqman",
+        "jumlah_ayat": 34,
+        "tempat_turun": "Meccan",
+        "arti": "Luqman",
+        "deskripsi": "Highlights the wisdom of Luqman and the importance of guidance.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/031.mp3"
+    },
+    {
+        "nomor": 32,
+        "nama": "السجدة",
+        "nama_latin": "As-Sajdah",
+        "jumlah_ayat": 30,
+        "tempat_turun": "Meccan",
+        "arti": "The Prostration",
+        "deskripsi": "Emphasizes the importance of worship and submission to God.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/032.mp3"
+    },
+    {
+        "nomor": 33,
+        "nama": "الأحزاب",
+        "nama_latin": "Al-Ahzab",
+        "jumlah_ayat": 73,
+        "tempat_turun": "Medinian",
+        "arti": "The Confederates",
+        "deskripsi": "Covers the challenges faced by the Muslim community and the importance of unity.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/033.mp3"
+    },
+    {
+        "nomor": 34,
+        "nama": "سبأ",
+        "nama_latin": "Saba",
+        "jumlah_ayat": 54,
+        "tempat_turun": "Meccan",
+        "arti": "Sheba",
+        "deskripsi": "Discusses the blessings of God and the consequences of ingratitude.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/034.mp3"
+    },
+    {
+        "nomor": 35,
+        "nama": "فاطر",
+        "nama_latin": "Fatir",
+        "jumlah_ayat": 45,
+        "tempat_turun": "Meccan",
+        "arti": "The Originator",
+        "deskripsi": "Highlights God's creation and the signs of His existence.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/035.mp3"
+    },
+    {
+        "nomor": 36,
+        "nama": "يس",
+        "nama_latin": "Ya-Sin",
+        "jumlah_ayat": 83,
+        "tempat_turun": "Meccan",
+        "arti": "Ya-Sin",
+        "deskripsi": "Recognized as the heart of the Quran, emphasizing the importance of the message.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/036.mp3"
+    },
+    {
+        "nomor": 37,
+        "nama": "الصافات",
+        "nama_latin": "As-Saffat",
+        "jumlah_ayat": 182,
+        "tempat_turun": "Meccan",
+        "arti": "Those who set the Ranks",
+        "deskripsi": "Describes the ranks of angels and the stories of prophets.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/037.mp3"
+    },
+    {
+        "nomor": 38,
+        "nama": "ص",
+        "nama_latin": "Sad",
+        "jumlah_ayat": 88,
+        "tempat_turun": "Meccan",
+        "arti": "The Letter Sad",
+        "deskripsi": "Focuses on the struggle of the Prophet and the rejection he faced.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/038.mp3"
+    },
+    {
+        "nomor": 39,
+        "nama": "الزمر",
+        "nama_latin": "Az-Zumar",
+        "jumlah_ayat": 75,
+        "tempat_turun": "Meccan",
+        "arti": "The Troops",
+        "deskripsi": "Addresses the consequences of disbelief and the importance of faith.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/039.mp3"
+    },
+    {
+        "nomor": 40,
+        "nama": "غافر",
+        "nama_latin": "Ghafir",
+        "jumlah_ayat": 85,
+        "tempat_turun": "Meccan",
+        "arti": "The Forgiver",
+        "deskripsi": "Emphasizes God's mercy and forgiveness.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/040.mp3"
+    },
+    {
+        "nomor": 41,
+        "nama": "فصلت",
+        "nama_latin": "Fussilat",
+        "jumlah_ayat": 54,
+        "tempat_turun": "Meccan",
+        "arti": "Explained in Detail",
+        "deskripsi": "Discusses the clarity of God's signs and the importance of revelation.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/041.mp3"
+    },
+    {
+        "nomor": 42,
+        "nama": "الشورى",
+        "nama_latin": "Ash-Shura",
+        "jumlah_ayat": 53,
+        "tempat_turun": "Meccan",
+        "arti": "The Consultation",
+        "deskripsi": "Addresses the importance of consultation and unity among believers.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/042.mp3"
+    },
+    {
+        "nomor": 43,
+        "nama": "الزخرف",
+        "nama_latin": "Az-Zukhruf",
+        "jumlah_ayat": 89,
+        "tempat_turun": "Meccan",
+        "arti": "The Gold Ornament",
+        "deskripsi": "Discusses the superficial nature of worldly wealth.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/043.mp3"
+    },
+    {
+        "nomor": 44,
+        "nama": "الدخان",
+        "nama_latin": "Ad-Dukhan",
+        "jumlah_ayat": 59,
+        "tempat_turun": "Meccan",
+        "arti": "The Smoke",
+        "deskripsi": "Describes the signs of God's punishment and the Day of Judgment.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/044.mp3"
+    },
+    {
+        "nomor": 45,
+        "nama": "الجاثية",
+        "nama_latin": "Al-Jathiya",
+        "jumlah_ayat": 37,
+        "tempat_turun": "Meccan",
+        "arti": "The Crouching",
+        "deskripsi": "Highlights the Day of Judgment and the importance of faith.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/045.mp3"
+    },
+    {
+        "nomor": 46,
+        "nama": "الأحقاف",
+        "nama_latin": "Al-Ahqaf",
+        "jumlah_ayat": 35,
+        "tempat_turun": "Meccan",
+        "arti": "The Wind-Curved Sandhills",
+        "deskripsi": "Discusses the fate of past nations and the importance of belief.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/046.mp3"
+    },
+    {
+        "nomor": 47,
+        "nama": "محمد",
+        "nama_latin": "Muhammad",
+        "jumlah_ayat": 38,
+        "tempat_turun": "Medinian",
+        "arti": "Muhammad",
+        "deskripsi": "Addresses the characteristics and battles of the Prophet Muhammad.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/047.mp3"
+    },
+    {
+        "nomor": 48,
+        "nama": "الفتح",
+        "nama_latin": "Al-Fath",
+        "jumlah_ayat": 29,
+        "tempat_turun": "Medinian",
+        "arti": "The Victory",
+        "deskripsi": "Describes the Treaty of Hudaybiyyah and the victory for Muslims.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/048.mp3"
+    },
+    {
+        "nomor": 49,
+        "nama": "الحجرات",
+        "nama_latin": "Al-Hujurat",
+        "jumlah_ayat": 18,
+        "tempat_turun": "Medinian",
+        "arti": "The Rooms",
+        "deskripsi": "Discusses social ethics, unity, and respect among believers.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/049.mp3"
+    },
+    {
+        "nomor": 50,
+        "nama": "ق",
+        "nama_latin": "Qaf",
+        "jumlah_ayat": 45,
+        "tempat_turun": "Meccan",
+        "arti": "The Letter Qaf",
+        "deskripsi": "Addresses the resurrection and the signs of God's existence.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/050.mp3"
+    },
+    {
+        "nomor": 51,
+        "nama": "الذاريات",
+        "nama_latin": "Adh-Dhariyat",
+        "jumlah_ayat": 60,
+        "tempat_turun": "Meccan",
+        "arti": "The Winnowing Winds",
+        "deskripsi": "Emphasizes the signs of God in creation and the certainty of the Day of Judgment.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/051.mp3"
+    },
+    {
+        "nomor": 52,
+        "nama": "الطور",
+        "nama_latin": "At-Tur",
+        "jumlah_ayat": 49,
+        "tempat_turun": "Meccan",
+        "arti": "The Mount",
+        "deskripsi": "Addresses the importance of the message of the Quran and the consequences of disbelief.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/052.mp3"
+    },
+    {
+        "nomor": 53,
+        "nama": "النجم",
+        "nama_latin": "An-Najm",
+        "jumlah_ayat": 62,
+        "tempat_turun": "Meccan",
+        "arti": "The Star",
+        "deskripsi": "Reveals the divine nature of the Quran and the significance of following God's guidance.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/053.mp3"
+    },
+    {
+        "nomor": 54,
+        "nama": "القمر",
+        "nama_latin": "Al-Qamar",
+        "jumlah_ayat": 55,
+        "tempat_turun": "Meccan",
+        "arti": "The Moon",
+        "deskripsi": "Narrates the stories of past prophets and the consequences of rejecting God's message.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/054.mp3"
+    },
+    {
+        "nomor": 55,
+        "nama": "الرحمن",
+        "nama_latin": "Ar-Rahman",
+        "jumlah_ayat": 78,
+        "tempat_turun": "Meccan",
+        "arti": "The Beneficent",
+        "deskripsi": "Highlights God's mercy and blessings upon creation, urging gratitude.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/055.mp3"
+    },
+    {
+        "nomor": 56,
+        "nama": "الواقعة",
+        "nama_latin": "Al-Waqi'a",
+        "jumlah_ayat": 96,
+        "tempat_turun": "Meccan",
+        "arti": "The Inevitable",
+        "deskripsi": "Describes the Day of Judgment and the distinction between the righteous and the wicked.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/056.mp3"
+    },
+    {
+        "nomor": 57,
+        "nama": "الحديد",
+        "nama_latin": "Al-Hadid",
+        "jumlah_ayat": 29,
+        "tempat_turun": "Medinian",
+        "arti": "The Iron",
+        "deskripsi": "Emphasizes the power of God and the importance of faith and charity.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/057.mp3"
+    },
+    {
+        "nomor": 58,
+        "nama": "المجادلة",
+        "nama_latin": "Al-Mujadila",
+        "jumlah_ayat": 22,
+        "tempat_turun": "Medinian",
+        "arti": "The Pleading Woman",
+        "deskripsi": "Addresses issues of social justice and the importance of mutual support among believers.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/058.mp3"
+    },
+    {
+        "nomor": 59,
+        "nama": "الحشر",
+        "nama_latin": "Al-Hashr",
+        "jumlah_ayat": 24,
+        "tempat_turun": "Medinian",
+        "arti": "The Exile",
+        "deskripsi": "Describes the expulsion of the Banu Nadir and emphasizes God's power.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/059.mp3"
+    },
+    {
+        "nomor": 60,
+        "nama": "الممتحنة",
+        "nama_latin": "Al-Mumtahana",
+        "jumlah_ayat": 13,
+        "tempat_turun": "Medinian",
+        "arti": "She that is to be examined",
+        "deskripsi": "Discusses interactions with non-believers and guidelines for loyalty and alliance.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/060.mp3"
+    },
+    {
+        "nomor": 61,
+        "nama": "الصف",
+        "nama_latin": "As-Saff",
+        "jumlah_ayat": 14,
+        "tempat_turun": "Medinian",
+        "arti": "The Ranks",
+        "deskripsi": "Encourages unity and steadfastness in the face of adversity.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/061.mp3"
+    },
+    {
+        "nomor": 62,
+        "nama": "الجمعة",
+        "nama_latin": "Al-Jumu'a",
+        "jumlah_ayat": 11,
+        "tempat_turun": "Medinian",
+        "arti": "The Congregation",
+        "deskripsi": "Discusses the importance of Friday prayer and community.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/062.mp3"
+    },
+    {
+        "nomor": 63,
+        "nama": "المنافقون",
+        "nama_latin": "Al-Munafiqun",
+        "jumlah_ayat": 11,
+        "tempat_turun": "Medinian",
+        "arti": "The Hypocrites",
+        "deskripsi": "Warns against hypocrisy and emphasizes the sincerity of faith.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/063.mp3"
+    },
+    {
+        "nomor": 64,
+        "nama": "التغابن",
+        "nama_latin": "At-Taghabun",
+        "jumlah_ayat": 18,
+        "tempat_turun": "Medinian",
+        "arti": "Mutual Disillusion",
+        "deskripsi": "Addresses the Day of Judgment and accountability for actions.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/064.mp3"
+    },
+    {
+        "nomor": 65,
+        "nama": "الطلاق",
+        "nama_latin": "At-Talaq",
+        "jumlah_ayat": 12,
+        "tempat_turun": "Medinian",
+        "arti": "The Divorce",
+        "deskripsi": "Provides guidance on divorce and the treatment of spouses.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/065.mp3"
+    },
+    {
+        "nomor": 66,
+        "nama": "التحريم",
+        "nama_latin": "At-Tahrim",
+        "jumlah_ayat": 12,
+        "tempat_turun": "Medinian",
+        "arti": "The Prohibition",
+        "deskripsi": "Discusses the prohibition of certain actions and emphasizes accountability.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/066.mp3"
+    },
+    {
+        "nomor": 67,
+        "nama": "الملك",
+        "nama_latin": "Al-Mulk",
+        "jumlah_ayat": 30,
+        "tempat_turun": "Meccan",
+        "arti": "The Sovereignty",
+        "deskripsi": "Emphasizes God's creation and the purpose of life.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/067.mp3"
+    },
+    {
+        "nomor": 68,
+        "nama": "القلم",
+        "nama_latin": "Al-Qalam",
+        "jumlah_ayat": 52,
+        "tempat_turun": "Meccan",
+        "arti": "The Pen",
+        "deskripsi": "Discusses the importance of the Quran and the character of the Prophet Muhammad.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/068.mp3"
+    },
+    {
+        "nomor": 69,
+        "nama": "الحاقة",
+        "nama_latin": "Al-Haaqqa",
+        "jumlah_ayat": 52,
+        "tempat_turun": "Meccan",
+        "arti": "The Reality",
+        "deskripsi": "Describes the Day of Judgment and the fate of past nations.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/069.mp3"
+    },
+    {
+        "nomor": 70,
+        "nama": "المعارج",
+        "nama_latin": "Al-Ma'arij",
+        "jumlah_ayat": 44,
+        "tempat_turun": "Meccan",
+        "arti": "The Ascending Stairways",
+        "deskripsi": "Discusses the trials of the Day of Judgment and the characteristics of the believers.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/070.mp3"
+    },
+    {
+        "nomor": 71,
+        "nama": "نوح",
+        "nama_latin": "Nuh",
+        "jumlah_ayat": 28,
+        "tempat_turun": "Meccan",
+        "arti": "Noah",
+        "deskripsi": "Narrates the story of Prophet Noah and the consequences of disbelief.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/071.mp3"
+    },
+    {
+        "nomor": 72,
+        "nama": "الجن",
+        "nama_latin": "Al-Jinn",
+        "jumlah_ayat": 28,
+        "tempat_turun": "Meccan",
+        "arti": "The Jinn",
+        "deskripsi": "Discusses the nature of jinn and their relationship with humans.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/072.mp3"
+    },
+    {
+        "nomor": 73,
+        "nama": "المزمل",
+        "nama_latin": "Al-Muzzammil",
+        "jumlah_ayat": 20,
+        "tempat_turun": "Meccan",
+        "arti": "The Enshrouded One",
+        "deskripsi": "Encourages patience and perseverance in worship and the importance of prayer.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/073.mp3"
+    },
+    {
+        "nomor": 74,
+        "nama": "المدثر",
+        "nama_latin": "Al-Muddathir",
+        "jumlah_ayat": 56,
+        "tempat_turun": "Meccan",
+        "arti": "The Cloaked One",
+        "deskripsi": "Calls the Prophet to convey the message of Islam and warns of the consequences of disbelief.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/074.mp3"
+    },
+    {
+        "nomor": 75,
+        "nama": "القيامة",
+        "nama_latin": "Al-Qiyama",
+        "jumlah_ayat": 40,
+        "tempat_turun": "Meccan",
+        "arti": "The Resurrection",
+        "deskripsi": "Describes the Day of Resurrection and the accountability of human actions.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/075.mp3"
+    },
+    {
+        "nomor": 76,
+        "nama": "الإنسان",
+        "nama_latin": "Al-Insan",
+        "jumlah_ayat": 31,
+        "tempat_turun": "Medinian",
+        "arti": "Man",
+        "deskripsi": "Emphasizes the importance of gratitude for God's blessings and the rewards for the righteous.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/076.mp3"
+    },
+    {
+        "nomor": 77,
+        "nama": "المطففين",
+        "nama_latin": "Al-Mutaffifin",
+        "jumlah_ayat": 36,
+        "tempat_turun": "Meccan",
+        "arti": "Defrauding",
+        "deskripsi": "Condemns dishonesty in trade and the consequences of such actions.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/077.mp3"
+    },
+    {
+        "nomor": 78,
+        "nama": "النبأ",
+        "nama_latin": "An-Naba",
+        "jumlah_ayat": 40,
+        "tempat_turun": "Meccan",
+        "arti": "The Tidings",
+        "deskripsi": "Discusses the Day of Judgment and the signs of God's existence.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/078.mp3"
+    },
+    {
+        "nomor": 79,
+        "nama": "النازعات",
+        "nama_latin": "An-Nazi'at",
+        "jumlah_ayat": 46,
+        "tempat_turun": "Meccan",
+        "arti": "Those Who Drag Forth",
+        "deskripsi": "Describes the Day of Resurrection and the fate of disbelievers.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/079.mp3"
+    },
+    {
+        "nomor": 80,
+        "nama": "عبس",
+        "nama_latin": "Abasa",
+        "jumlah_ayat": 42,
+        "tempat_turun": "Meccan",
+        "arti": "He Frowned",
+        "deskripsi": "Describes an incident involving the Prophet and emphasizes the importance of humility.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/080.mp3"
+    },
+    {
+        "nomor": 81,
+        "nama": "التكوير",
+        "nama_latin": "At-Takwir",
+        "jumlah_ayat": 29,
+        "tempat_turun": "Meccan",
+        "arti": "The Overthrowing",
+        "deskripsi": "Describes cosmic events that will occur on the Day of Judgment.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/081.mp3"
+    },
+    {
+        "nomor": 82,
+        "nama": "الإنفطار",
+        "nama_latin": "Al-Infitar",
+        "jumlah_ayat": 19,
+        "tempat_turun": "Meccan",
+        "arti": "The Cleaving",
+        "deskripsi": "Describes the signs of the Day of Judgment and the importance of righteous actions.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/082.mp3"
+    },
+    {
+        "nomor": 83,
+        "nama": "المطففين",
+        "nama_latin": "Al-Mutaffifin",
+        "jumlah_ayat": 36,
+        "tempat_turun": "Meccan",
+        "arti": "Defrauding",
+        "deskripsi": "Condemns those who cheat in trade and warns of the consequences.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/083.mp3"
+    },
+    {
+        "nomor": 84,
+        "nama": "الإنشقاق",
+        "nama_latin": "Al-Inshiqaq",
+        "jumlah_ayat": 25,
+        "tempat_turun": "Meccan",
+        "arti": "The Splitting Open",
+        "deskripsi": "Describes the signs of the Day of Judgment and the fate of the righteous and the wicked.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/084.mp3"
+    },
+    {
+        "nomor": 85,
+        "nama": "البروج",
+        "nama_latin": "Al-Buruj",
+        "jumlah_ayat": 22,
+        "tempat_turun": "Meccan",
+        "arti": "The Mansions of the Stars",
+        "deskripsi": "Reassures the believers about God's protection and the fate of disbelievers.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/085.mp3"
+    },
+    {
+        "nomor": 86,
+        "nama": "الطارق",
+        "nama_latin": "At-Takwir",
+        "jumlah_ayat": 17,
+        "tempat_turun": "Meccan",
+        "arti": "The Morning Star",
+        "deskripsi": "Discusses the creation of humans and the importance of the Quran.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/086.mp3"
+    },
+    {
+        "nomor": 87,
+        "nama": "الأعلى",
+        "nama_latin": "Al-A'la",
+        "jumlah_ayat": 19,
+        "tempat_turun": "Meccan",
+        "arti": "The Most High",
+        "deskripsi": "Encourages the remembrance of God and the importance of the Quran.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/087.mp3"
+    },
+    {
+        "nomor": 88,
+        "nama": "الغاشية",
+        "nama_latin": "Al-Ghashiya",
+        "jumlah_ayat": 26,
+        "tempat_turun": "Meccan",
+        "arti": "The Overwhelming",
+        "deskripsi": "Describes the conditions on the Day of Judgment.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/088.mp3"
+    },
+    {
+        "nomor": 89,
+        "nama": "الفجر",
+        "nama_latin": "Al-Fajr",
+        "jumlah_ayat": 30,
+        "tempat_turun": "Meccan",
+        "arti": "The Dawn",
+        "deskripsi": "Highlights the importance of prayer and charity and warns against arrogance.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/089.mp3"
+    },
+    {
+        "nomor": 90,
+        "nama": "البلد",
+        "nama_latin": "Al-Balad",
+        "jumlah_ayat": 20,
+        "tempat_turun": "Meccan",
+        "arti": "The City",
+        "deskripsi": "Emphasizes the significance of the holy city of Meccan and the struggles of humanity.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/090.mp3"
+    },
+    {
+        "nomor": 91,
+        "nama": "الشمس",
+        "nama_latin": "Ash-Shams",
+        "jumlah_ayat": 15,
+        "tempat_turun": "Meccan",
+        "arti": "The Sun",
+        "deskripsi": "Discusses the contrast between the righteous and the wicked.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/091.mp3"
+    },
+    {
+        "nomor": 92,
+        "nama": "الليل",
+        "nama_latin": "Al-Lail",
+        "jumlah_ayat": 21,
+        "tempat_turun": "Meccan",
+        "arti": "The Night",
+        "deskripsi": "Emphasizes the significance of night and day and the choices of humans.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/092.mp3"
+    },
+    {
+        "nomor": 93,
+        "nama": "الضحى",
+        "nama_latin": "Ad-Dhuha",
+        "jumlah_ayat": 11,
+        "tempat_turun": "Meccan",
+        "arti": "The Morning Hours",
+        "deskripsi": "Reassures the Prophet during his period of hardship.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/093.mp3"
+    },
+    {
+        "nomor": 94,
+        "nama": "الشرح",
+        "nama_latin": "Ash-Sharh",
+        "jumlah_ayat": 8,
+        "tempat_turun": "Meccan",
+        "arti": "The Relief",
+        "deskripsi": "Offers comfort and encouragement to the Prophet.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/094.mp3"
+    },
+    {
+        "nomor": 95,
+        "nama": "التين",
+        "nama_latin": "At-Tin",
+        "jumlah_ayat": 8,
+        "tempat_turun": "Meccan",
+        "arti": "The Fig",
+        "deskripsi": "Highlights the importance of the fig and the olive as symbols of humanity.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/095.mp3"
+    },
+    {
+        "nomor": 96,
+        "nama": "العلق",
+        "nama_latin": "Al-Alaq",
+        "jumlah_ayat": 19,
+        "tempat_turun": "Meccan",
+        "arti": "The Clot",
+        "deskripsi": "Discusses the significance of knowledge and reading in Islam.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/096.mp3"
+    },
+    {
+        "nomor": 97,
+        "nama": "القدر",
+        "nama_latin": "Al-Qadr",
+        "jumlah_ayat": 5,
+        "tempat_turun": "Meccan",
+        "arti": "The Night of Decree",
+        "deskripsi": "Describes the significance of the Night of Decree and its virtues.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio/full/Misyari-Rasyid-Al-Afasi/097.mp3"
+    },
+    {
+        "nomor": 98,
+        "nama": "البينة",
+        "nama_latin": "Al-Bayyina",
+        "jumlah_ayat": 8,
+        "tempat_turun": "Medinian",
+        "arti": "The Clear Proof",
+        "deskripsi": "Emphasizes the clarity of the message of Islam and the importance of faith.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/098.mp3"
+    },
+    {
+        "nomor": 99,
+        "nama": "الزلزلة",
+        "nama_latin": "Az-Zalzalah",
+        "jumlah_ayat": 8,
+        "tempat_turun": "Medinian",
+        "arti": "The Earthquake",
+        "deskripsi": "Describes the events of the Day of Resurrection.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/099.mp3"
+    },
+    {
+        "nomor": 100,
+        "nama": "العاديات",
+        "nama_latin": "Al-Adiyat",
+        "jumlah_ayat": 11,
+        "tempat_turun": "Meccan",
+        "arti": "The Courser",
+        "deskripsi": "Discusses the nature of greed and the importance of gratitude.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/100.mp3"
+    },
+    {
+        "nomor": 101,
+        "nama": "القارعة",
+        "nama_latin": "Al-Qari'a",
+        "jumlah_ayat": 11,
+        "tempat_turun": "Meccan",
+        "arti": "The Calamity",
+        "deskripsi": "Describes the Day of Calamity and the fate of individuals.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/101.mp3"
+    },
+    {
+        "nomor": 102,
+        "nama": "التكاثر",
+        "nama_latin": "At-Takathur",
+        "jumlah_ayat": 8,
+        "tempat_turun": "Meccan",
+        "arti": "The Rivalry in World Increase",
+        "deskripsi": "Warns against being consumed by materialism.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/102.mp3"
+    },
+    {
+        "nomor": 103,
+        "nama": "العصر",
+        "nama_latin": "Al-Asr",
+        "jumlah_ayat": 3,
+        "tempat_turun": "Meccan",
+        "arti": "The Time",
+        "deskripsi": "Emphasizes the importance of time and righteous deeds.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/103.mp3"
+    },
+    {
+        "nomor": 104,
+        "nama": "الهمزة",
+        "nama_latin": "Al-Humazah",
+        "jumlah_ayat": 9,
+        "tempat_turun": "Meccan",
+        "arti": "The Traducer",
+        "deskripsi": "Condemns slanderers and the consequences of their actions.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/104.mp3"
+    },
+    {
+        "nomor": 105,
+        "nama": "الفيل",
+        "nama_latin": "Al-Fil",
+        "jumlah_ayat": 5,
+        "tempat_turun": "Meccan",
+        "arti": "The Elephant",
+        "deskripsi": "Describes the event of the Elephant and God's protection of the Kaaba.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio/full/Misyari-Rasyid-Al-Afasi/105.mp3"
+    },
+    {
+        "nomor": 106,
+        "nama": "قريش",
+        "nama_latin": "Quraish",
+        "jumlah_ayat": 4,
+        "tempat_turun": "Meccan",
+        "arti": "The Quraish",
+        "deskripsi": "Addresses the Quraish tribe and their privileges.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/106.mp3"
+    },
+    {
+        "nomor": 107,
+        "nama": "الماعون",
+        "nama_latin": "Al-Ma'un",
+        "jumlah_ayat": 7,
+        "tempat_turun": "Meccan",
+        "arti": "The Small Kindnesses",
+        "deskripsi": "Calls attention to the importance of small acts of kindness.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio/full/Misyari-Rasyid-Al-Afasi/107.mp3"
+    },
+    {
+        "nomor": 108,
+        "nama": "الكوثر",
+        "nama_latin": "Al-Kawthar",
+        "jumlah_ayat": 3,
+        "tempat_turun": "Meccan",
+        "arti": "The Abundance",
+        "deskripsi": "Reassures the Prophet about the abundance of blessings.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/108.mp3"
+    },
+    {
+        "nomor": 109,
+        "nama": "الكافرون",
+        "nama_latin": "Al-Kafirun",
+        "jumlah_ayat": 6,
+        "tempat_turun": "Meccan",
+        "arti": "The Disbelievers",
+        "deskripsi": "Declares the distinction between the believers and disbelievers.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio/full/Misyari-Rasyid-Al-Afasi/109.mp3"
+    },
+    {
+        "nomor": 110,
+        "nama": "النصر",
+        "nama_latin": "An-Nasr",
+        "jumlah_ayat": 3,
+        "tempat_turun": "Meccan",
+        "arti": "The Divine Support",
+        "deskripsi": "Proclaims the victory of Islam and the coming of God's help.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/110.mp3"
+    },
+    {
+        "nomor": 111,
+        "nama": "المسد",
+        "nama_latin": "Al-Masad",
+        "jumlah_ayat": 5,
+        "tempat_turun": "Meccan",
+        "arti": "The Palm Fiber",
+        "deskripsi": "Condemns the actions of Abu Lahab and his wife.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio/full/Misyari-Rasyid-Al-Afasi/111.mp3"
+    },
+    {
+        "nomor": 112,
+        "nama": "الإخلاص",
+        "nama_latin": "Al-Ikhlas",
+        "jumlah_ayat": 4,
+        "tempat_turun": "Meccan",
+        "arti": "The Sincerity",
+        "deskripsi": "Defines the oneness of God and the importance of sincerity in worship.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio/full/Misyari-Rasyid-Al-Afasi/112.mp3"
+    },
+    {
+        "nomor": 113,
+        "nama": "الفلق",
+        "nama_latin": "Al-Falaq",
+        "jumlah_ayat": 5,
+        "tempat_turun": "Meccan",
+        "arti": "The Daybreak",
+        "deskripsi": "Seeks refuge in God from evil.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/113.mp3"
+    },
+    {
+        "nomor": 114,
+        "nama": "الناس",
+        "nama_latin": "An-Nas",
+        "jumlah_ayat": 6,
+        "tempat_turun": "Meccan",
+        "arti": "The Mankind",
+        "deskripsi": "Seeks refuge in God from the evil of mankind.",
+        "audio": "https://equran.nos.wjv-1.neo.id/audio-full/Misyari-Rasyid-Al-Afasi/114.mp3"
+    }
+]
+
+  
+  
+  
+  
