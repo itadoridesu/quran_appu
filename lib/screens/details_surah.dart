@@ -8,35 +8,31 @@ import 'package:pizza_app/components/ayat_item.dart';
 import 'package:pizza_app/model/ayah_model.dart';
 import 'package:pizza_app/model/surah_model.dart';
 import 'package:pizza_app/screens/globals.dart';
+import 'package:pizza_app/search%20hehe/ayah_search_delegate.dart';
 
 class DetailsSurah extends StatelessWidget {
   final SurahModel surahModel;
   DetailsSurah({super.key, required this.surahModel});
 
-  Future<List<AyahModel>> _getAllAyahs() async {
-  List<AyahModel> ayahList = [];
 
-  // Create a list of futures for fetching each ayah
-  List<Future<AyahModel>> futures = [];
+Future<List<AyahModel>> _getAllAyahs() async {
+    List<AyahModel> ayahList = [];
+    List<Future<AyahModel>> futures = [];
 
-  for (int ayahNo = 1; ayahNo <= surahModel.jumlahAyat; ayahNo++) {
-    futures.add(
-      Dio().get("https://quranapi.pages.dev/api/${surahModel.nomor}/$ayahNo.json")
-        .then((data) {
-          var decodedJson = json.decode(data.toString());
-          return AyahModel.fromJson(decodedJson);
-        })
-    );
+    for (int ayahNo = 1; ayahNo <= surahModel.jumlahAyat; ayahNo++) {
+      futures.add(
+        Dio().get("https://quranapi.pages.dev/api/${surahModel.nomor}/$ayahNo.json")
+          .then((data) {
+            var decodedJson = json.decode(data.toString());
+            return AyahModel.fromJson(decodedJson);
+          })
+      );
+    }
+
+    ayahList = await Future.wait(futures);
+    print("Fetched ${ayahList.length} Ayahs for Surah ${surahModel.namaLatin}");
+    return ayahList;
   }
-
-  // Wait for all futures to complete and gather results
-  ayahList = await Future.wait(futures);
-  print("Fetched ${ayahList.length} Ayahs for Surah ${surahModel.namaLatin}");
-
-  
-  return ayahList;
-  
-}
  
 
   @override
@@ -60,7 +56,8 @@ class DetailsSurah extends StatelessWidget {
             backgroundColor: background,
             appBar: _appBar(
               context: context,
-              surahModel : surahModel
+              surahModel : surahModel,
+              ayahList: ayahList
               ),
             body: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24),
@@ -194,7 +191,7 @@ class DetailsSurah extends StatelessWidget {
           );
   }
 
-  AppBar _appBar({required BuildContext context, required SurahModel surahModel}) {
+  AppBar _appBar({required BuildContext context, required SurahModel surahModel, required List<AyahModel> ayahList}) {
 
 
     return AppBar(
@@ -223,7 +220,13 @@ class DetailsSurah extends StatelessWidget {
           ),
             ],
           ),
-          IconButton(onPressed: () {}, icon: SvgPicture.asset('assets/svg/search_icon.svg')),
+          IconButton(
+            onPressed: () {
+              showSearch(
+                context: context,
+                delegate: AyahSearchDelegate(ayahList),
+              );  
+          }, icon: SvgPicture.asset('assets/svg/search_icon.svg')),
         ],
       ),
     );

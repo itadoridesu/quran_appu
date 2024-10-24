@@ -15,7 +15,7 @@ class SurahSearchDelegate extends SearchDelegate<SurahModel?> {
   @override
   String get searchFieldLabel => 'search surah by name';
 
-   @override
+  @override
   TextStyle get searchFieldStyle {
     // Check if the query contains any Latin characters
     bool isLatin = RegExp(r'[a-zA-Z]').hasMatch(query);
