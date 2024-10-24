@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pizza_app/model/surah_model.dart';
-//import 'package:pizza_app/model/surah_model.dart';
 import 'package:pizza_app/purobaida/surah_provider.dart';
+//import 'package:pizza_app/model/surah_model.dart';
 import 'package:pizza_app/screens/details_surah.dart';
 import 'package:pizza_app/screens/globals.dart';
 import 'package:provider/provider.dart';
@@ -17,6 +17,9 @@ class SurahItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    final surahProvider =  Provider.of<SurahProvider>(context, listen: false);
+
     return GestureDetector(
       behavior: HitTestBehavior.opaque,
       onTap: () async {
@@ -24,8 +27,14 @@ class SurahItem extends StatelessWidget {
 
         Navigator.of(context).push(MaterialPageRoute(builder: (context) => DetailsSurah(surahModel: surahModel)));
 
-        Provider.of<SurahProvider>(context, listen: false)
-            .selectSurah(surahModel);
+
+        if (surahProvider.selectedSurah?.nomor != surahModel.nomor) {
+          // Reset last read ayah if it's a new Surah
+          surahProvider.updateLastReadAyah(0);
+        }
+        
+        surahProvider.selectSurah(surahModel);
+     
       },
       child: Container(
         padding: EdgeInsets.symmetric(vertical: 16),

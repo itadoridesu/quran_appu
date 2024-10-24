@@ -9,8 +9,7 @@ import 'package:provider/provider.dart';
 
 class AyatItem extends StatelessWidget {
   final AyahModel ayahModel;
-  //final Function(int surahNo, int ayahNo) playAudio; // Add this line
-  const AyatItem({super.key, required this.ayahModel, /*required this.playAudio*/});
+  const AyatItem({super.key, required this.ayahModel});
   
 
   @override
@@ -55,20 +54,20 @@ class AyatItem extends StatelessWidget {
                 children: [
                   IconButton(
                     onPressed: () {
+                      
                       surahProvider.updateLastReadAyah(ayahModel.ayahNo);
-                      print("Play button pressed");
+                      
                       final ayahKey = '${ayahModel.surahNo}_${ayahModel.ayahNo}'; // Create a unique key for this Ayah
+
                       if (audioState.isPlaying && audioState.activeAyah == ayahKey) {
-                        print("Stopping audio");
                         audioState.stopAudio();
                       } else {
                         // Use the key to access the audio URL
                         final audioUrl = ayahModel.audio['1']?.url ?? '';
-                        print("Audio URL: $audioUrl");
                    
                         if (audioUrl.isNotEmpty) {
-                          print("Playing audio from URL: $audioUrl");
                           audioState.playAudio(audioUrl, ayahKey); // Pass the unique key for this Ayah
+                          
                         } else {
                           print("Audio URL is empty");
                         }

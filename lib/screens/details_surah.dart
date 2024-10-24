@@ -31,66 +31,17 @@ class DetailsSurah extends StatelessWidget {
 
   // Wait for all futures to complete and gather results
   ayahList = await Future.wait(futures);
+  print("Fetched ${ayahList.length} Ayahs for Surah ${surahModel.namaLatin}");
+
   
   return ayahList;
+  
 }
  
 
-  // Future<SurahDetailsModel> _getDetailSurah() async {
-  //   var data = await Dio().get("https://quranapi.pages.dev/api/${surahModel.nomor}.json");
-  //   return SurahDetailsModel.fromJson(json.decode(data.toString()));
-  // }
-
-//    Future<AyahModel> getAyahAudio() async {
-//    // Fetch data from the API
-//    var data = await Dio().get("https://quranapi.pages.dev/api/${surahDetailsModel.surahNo}/${surahDetailsModel.}.json")
-//    // Decode the data into a JSON format
-//    var decodedJson = json.decode(data.toString())
-//    // Extract the audio part and ayah number
-//    var audioJson = decodedJson['audio'];
-//    var ayahNo = decodedJson['ayahNo'];  // Extract the ayah numbe
-//    // Wrap both the audio and ayah number into a map and pass to AudioDesu
-//    return AyahModel.fromJson({
-//      "audio": audioJson,
-//      "ayahNo": ayahNo  // Pass the ayah number to the model
-//    });
-//  }
-  
-
-
-  
-// // Function to fetch audio and play it using the Audioplayers package
-// Future<void> playAudio(int surahNo, int ayahNo) async {
-//   try {
-//     // Fetch the audio data for the specific Ayah using the existing getAyahAudio function
-//     AudioDesu audioDesu = await getAyahAudio(ayahNo, surahNo);
-    
-//     // Extract the first reciter's audio URL from the audio data
-//     String firstReciterUrl = audioDesu.audio['1']!.url;
-    
-//     // Initialize the audio player
-//     AudioPlayer audioPlayer = AudioPlayer();
-  
-
-//     // Load the audio URL into the player
-
-//     await audioPlayer.play(UrlSource(firstReciterUrl));
-
-//      // Once the audio completes, you can recursively call playAudio for the next ayah
-//     audioPlayer.onPlayerComplete.listen((event) {
-//       playAudio(surahNo, ayahNo + 1); // Move to the next Ayah in the same Surah
-//     });
-
-//   } catch (e) {
-//     // Catch any errors (e.g., network issues or invalid data) and log them
-//     print("Error fetching or playing audio: $e");
-//   }
-// }
-
-
-
   @override
   Widget build(BuildContext context) {
+
     return FutureBuilder<List<AyahModel>>(
       future: _getAllAyahs(), 
       builder: (context, snapshot) {
@@ -129,7 +80,7 @@ class DetailsSurah extends StatelessWidget {
                   itemCount: surahModel.jumlahAyat,)
               ),
             )
-
+          
           );
           
   });
@@ -244,6 +195,8 @@ class DetailsSurah extends StatelessWidget {
   }
 
   AppBar _appBar({required BuildContext context, required SurahModel surahModel}) {
+
+
     return AppBar(
       elevation: 0,
       backgroundColor: background,
@@ -256,7 +209,7 @@ class DetailsSurah extends StatelessWidget {
             children: [
               IconButton(
                 onPressed: () {
-                  Navigator.of(context).pop();
+                  Navigator.of(context).pop();                  
                 }, 
                 icon: SvgPicture.asset('assets/svg/sahm.svg')),
               SizedBox(width: 20,),

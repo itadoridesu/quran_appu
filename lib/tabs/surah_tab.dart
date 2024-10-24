@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pizza_app/components/surah_item.dart';
 import 'package:pizza_app/model/surah_model.dart';
+import 'package:pizza_app/purobaida/surah_provider.dart';
+import 'package:provider/provider.dart';
 
 class SurahTab extends StatelessWidget {
   const SurahTab({super.key});
@@ -18,6 +20,9 @@ Future<List<SurahModel>> _getSurahList() async {
 
   @override
   Widget build(BuildContext context) {
+    
+    final surahProvider = Provider.of<SurahProvider>(context);
+
     return FutureBuilder<List<SurahModel>>(
       future: _getSurahList(), 
       initialData: [],
@@ -25,6 +30,15 @@ Future<List<SurahModel>> _getSurahList() async {
         if(!snapshot.hasData) {
           return Container();
         }
+
+        if (snapshot.hasData) {
+          // Only set the surahs if they haven't been set yet
+          if (surahProvider.allSurahs.isEmpty) {
+            surahProvider.setAllSurahs(snapshot.data!);
+          }
+        }
+
+
         return ListView.separated(
           itemBuilder: (context, index) => Padding(
               padding: EdgeInsets.only(
