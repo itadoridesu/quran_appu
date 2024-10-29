@@ -7,9 +7,9 @@ import 'package:pizza_app/search%20hehe/surah_search_delegate.dart';
 import 'package:provider/provider.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
-  final String title;
+  final int pageNo;
 
-  CustomAppBar({required this.title});
+  CustomAppBar({required this.pageNo});
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +32,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
                 width: 20,
               ),
               Text(
-                title,
+                pageNo == 0 ? 'Quran App' : pageNo == 4 ? 'Bookmarks' : 'onProgress',
                 style: GoogleFonts.poppins(
                     color: Colors.white,
                     fontSize: 20,
@@ -42,7 +42,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
           ),
           IconButton(
               onPressed: () {
-                 if (title == 'Quran App') {
+                 if (pageNo == 0) {
                 // Perform Surah search when the title matches
                 showSearch(
                   context: context,

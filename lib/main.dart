@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pizza_app/purobaida/audio_state_provider.dart';
+import 'package:pizza_app/purobaida/bookumaaku_provider.dart';
 import 'package:pizza_app/purobaida/nabigeishun_provider.dart';
 import 'package:pizza_app/purobaida/surah_provider.dart';
 import 'package:pizza_app/screens/home_screen.dart';
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (_) => SurahProvider()),
         ChangeNotifierProvider(create: (_) => AudioStateProvider()),
-        ChangeNotifierProvider(create: (_) => NabigeishunProvider())
+        ChangeNotifierProvider(create: (_) => NabigeishunProvider()),
+        ChangeNotifierProvider(create: (_) => BookumaakuProvider())
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,

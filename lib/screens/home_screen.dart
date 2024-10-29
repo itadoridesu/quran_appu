@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pizza_app/components/bottom_navigeishun_no_baaru.dart';
 import 'package:pizza_app/components/appu_baa.dart';
+import 'package:pizza_app/purobaida/audio_state_provider.dart';
 import 'package:pizza_app/purobaida/nabigeishun_provider.dart';
 import 'package:pizza_app/purobaida/surah_provider.dart';
 import 'package:pizza_app/screens/details_surah.dart';
@@ -29,7 +30,7 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: background,
-      appBar: CustomAppBar(title: 'Quran App'),
+      appBar: CustomAppBar(pageNo: navigationProvider.currentIndex),
       bottomNavigationBar: BottomNavigeishunNoBaaru(
         currentIndex: navigationProvider.currentIndex,
         onTap: (index) {
@@ -196,15 +197,14 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(20), // Circular border
                   color: secondPrimary, // Background color of the SnackBar
                   child: Padding(
-                    padding:
-                        const EdgeInsets.symmetric(vertical: 16), // Padding for the content
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 16), // Padding for the content
                     child: Center(
                       child: Text(
                         "RECITE SOME QURAN FIRST !!!",
                         style: GoogleFonts.poppins(
                             color: Colors.white,
-                            fontWeight: FontWeight.w400
-                            ), // Text style
+                            fontWeight: FontWeight.w400), // Text style
                       ),
                     ),
                   ),
@@ -264,14 +264,29 @@ class HomeScreen extends StatelessWidget {
                   height: 4,
                 ),
                 Consumer<SurahProvider>(
-                  builder: (context, surahProvider, child) => Text(
-                    'Ayah No: ' + surahProvider.lastReadAyah.toString(),
+                    builder: (context, surahProvider, child) {
+                  final audioState = Provider.of<AudioStateProvider>(context);
+
+                  int nextAyahNumber = surahProvider.lastReadAyah == 0
+                      ? 0
+                      : (audioState.nextAyahKey != null
+                          ? int.parse(audioState.nextAyahKey!.split('_')[1])
+                          : surahProvider.lastReadAyah);
+
+                  // Choose the maximum Ayah number to display
+                  int displayAyahNumber = 
+                       (nextAyahNumber > surahProvider.lastReadAyah
+                          ? nextAyahNumber
+                          : surahProvider.lastReadAyah);
+
+                  return Text(
+                    'Ayah No: ' + displayAyahNumber.toString(),
                     style: GoogleFonts.poppins(
                         fontSize: 14,
                         color: Colors.white,
                         fontWeight: FontWeight.w400),
-                  ),
-                ),
+                  );
+                }),
               ],
             ),
           ),

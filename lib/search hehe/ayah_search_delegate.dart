@@ -149,7 +149,7 @@ class AyahSearchDelegate extends SearchDelegate<AyahModel?> {
         : ayahs
             .where((ayah) => (RegExp(r'[\u0600-\u06FF]')
                     .hasMatch(query) // Check if the query is Arabic
-                ? ayah.arabic1.toLowerCase().contains(query.toLowerCase())
+                ? ayah.arabic2.toLowerCase().contains(query.toLowerCase())
                 : ayah.english.toLowerCase().contains(query.toLowerCase())))
             .toList();
 
@@ -192,10 +192,25 @@ class AyahSearchDelegate extends SearchDelegate<AyahModel?> {
                               border: Border.all(color: primary),
                               borderRadius: BorderRadius.circular(25),
                             ),
-                            child: Icon(
-                              Icons.circle,
-                              color: primary,
-                              size: 18,
+                            child: Stack(
+                              children: [ 
+                                Icon(
+                                Icons.circle,
+                                color: primary,
+                                size: 18,
+                              ),
+                              Positioned(
+                                right: 5.1,
+                                bottom: -2.5,
+                                child: Text(
+                                ayah.ayahNo.toString(), 
+                                style: GoogleFonts.amiri(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold
+                                  ),
+                                  )
+                                )
+                              ]
                             ),
                           ),
                         if (!isArabic)
@@ -229,10 +244,25 @@ class AyahSearchDelegate extends SearchDelegate<AyahModel?> {
                               border: Border.all(color: primary),
                               borderRadius: BorderRadius.circular(25),
                             ),
-                            child: Icon(
-                              Icons.circle,
-                              color: primary,
-                              size: 18,
+                            child: Stack(
+                              children: [ 
+                                Icon(
+                                Icons.circle,
+                                color: primary,
+                                size: 18,
+                              ),
+                              Positioned(
+                                right: 5.1,
+                                bottom: -2.3,
+                                child: Text(
+                                ayah.ayahNo.toString(), 
+                                style: GoogleFonts.amiri(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold
+                                  ),
+                                  )
+                                )
+                              ]
                             ),
                           ),
                       ],

@@ -7,8 +7,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:pizza_app/components/ayat_item.dart';
 import 'package:pizza_app/model/ayah_model.dart';
 import 'package:pizza_app/model/surah_model.dart';
+import 'package:pizza_app/purobaida/audio_state_provider.dart';
 import 'package:pizza_app/screens/globals.dart';
 import 'package:pizza_app/search%20hehe/ayah_search_delegate.dart';
+import 'package:provider/provider.dart';
 
 class DetailsSurah extends StatelessWidget {
   final SurahModel surahModel;
@@ -51,6 +53,8 @@ Future<List<AyahModel>> _getAllAyahs() async {
         }
 
           List<AyahModel> ayahList = snapshot.data!;
+          Provider.of<AudioStateProvider>(context).setCurrentSurahAyahs(ayahList);
+
 
           return Scaffold(
             backgroundColor: background,

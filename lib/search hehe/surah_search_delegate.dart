@@ -95,9 +95,21 @@ class SurahSearchDelegate extends SearchDelegate<SurahModel?> {
               itemBuilder: (context, index) {
                 final surah = results[index];
                 return GestureDetector(
+                  behavior: HitTestBehavior.opaque,
                   onTap: () {
-                    Provider.of<SurahProvider>(context, listen: false)
-                        .selectSurah(surah);
+                    final surahProvider =
+                        Provider.of<SurahProvider>(context, listen: false);
+
+                    // Check if the selected Surah is different from the current one
+                    if (surahProvider.selectedSurah?.nomor != surah.nomor) {
+                      // Reset last read Ayah if it's a new Surah
+                      surahProvider.updateLastReadAyah(0);
+                    }
+
+                    // Update the selected Surah
+                    surahProvider.selectSurah(surah);
+
+                    // Navigate to the DetailsSurah screen
                     Navigator.of(context).push(MaterialPageRoute(
                       builder: (context) => DetailsSurah(surahModel: surah),
                     ));

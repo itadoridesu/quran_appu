@@ -8,7 +8,7 @@ class DuaaScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: background,
-      body: SafeArea(child: Center(child: Text('data'),)),
+      body: SafeArea(child: Center(child: Text('Duaa', style: TextStyle(color: Colors.white,), ),)),
     );
   }
 }
